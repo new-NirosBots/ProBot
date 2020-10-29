@@ -1,0 +1,56 @@
+Update discord.js from: v11 => v12
+تحديث الاكواد من v11 الى v12
+━━━━━━━━━━━━━━━━━━━━━
+[Cache]
+
+users.get ➜ 
+ ➜ 
+roles.find ➜ roles.cache.find
+message.get ➜ messages.cache.get
+users.exists ➜ users.cache.some
+forEach ➜ cache.forEach
+━━━━━━━━━━━━━━━━━━━━━
+[fetch]
+
+fetchUser ➜ users.fetch
+fetchMember ➜ members.fetch
+fetchMessage ➜ messages.fetch
+fetchPinnedMessages ➜ messages.fetchPinned
+━━━━━━━━━━━━━━━━━━━━━
+[send]
+
+sendFile ➜ send({files["./Hello.png"]})
+sendEmbed ➜ send
+sendMessage ➜ send
+━━━━━━━━━━━━━━━━━━━━━
+[roles]
+
+createRole ➜ roles.create
+addRole ➜ roles.add
+removeRole ➜ roles.remove
+highestRole ➜ roles.highest
+colorRole ➜ roles.color
+roles.get ➜ roles.cache.get
+━━━━━━━━━━━━━━━━━━━━━
+[URL]
+
+avatarURL ➜ avatarURL()
+displayAvatarURL ➜ displayAvatarURL()
+iconURL ➜ iconURL()
+━━━━━━━━━━━━━━━━━━━━━
+[embed]
+
+RichEmbed ➜ MessageEmbed
+━━━━━━━━━━━━━━━━━━━━━
+[ws]
+
+client.ping ➜ client.ws.ping
+client.uptime ➜ client.ws.ping
+client.status ➜ client.ws.status
+━━━━━━━━━━━━━━━━━━━━━
+[voice]
+
+
+━━━━━━━━━━━━━━━━━━━━━
+
+ @here @everyone 
